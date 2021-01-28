@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dom</title>
+  <style>
+    .red {
+      width: 100px;
+      height: 100px;
+      border: 1px solid red;
+    }
+
+    .blue {
+      height: 200px;
+      width: 20px;
+      background-color: blue;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="parent1">
+    <div id="before_"></div>
+    <div id="after_"></div>
+    <div id="wrap_"></div>
+  </div>
+
+  <div id="remove_">
+    移除这个节点
+  </div>
+
+  <div id="empty_">
+    <p>empty第一行</p>
+    <p>empty第二行</p>
+    <p>empty第三行</p>
+  </div>
+
+  <div id="attr_"></div>
+
+  <div id="text_"></div>
+
+  <div id="html_"></div>
+
+  <div id="style_">
+    不相关数据不相关数据
+  </div>
+
+  <div id="class_"></div>
+
+  <div id="on_" style="border: 1px solid black">添加事件</div>
+
+  <div id="off_" style="border: 1px solid black">移除事件</div>
+
+  <div id="find_">
+    <div class="blue"></div>
+    <div class="blue"></div>
+    <div class="blue"></div>
+  </div>
+
+  <div>
+    <ul>
+      <li>1123</li>
+      <li id="siblings_">2123</li>
+      <li>3123</li>
+      <li>4123</li>
+      <li>5123</li>
+    </ul>
+  </div>
+
+  <div id="each_">
+    <li>each3123</li>
+    <li>each4123</li>
+    <li>5each123</li>
+  </div>
+
+  <div>
+    <li>1123</li>
+    <li id="index_">2123</li>
+    <li>3123</li>
+    <li>4123</li>
+    <li>5123</li>
+  </div>
+
+  <script src="./dom.js"></script>
+  <script src="./main.js"></script>
+</body>
+
+</html>
